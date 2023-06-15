@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Halant:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
 
-
-body {
-    max-width: 84.375rem;
-    min-width: 84.375rem;
-
-}
-
 * {
     margin: 0;
     box-sizing: border-box;
@@ -19,7 +12,7 @@ main {
 
 }
 
-.parent1 {
+.headtext {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -38,7 +31,7 @@ a {
 
 }
 
-.line1 {
+.home {
     font-family: 'Halant';
     font-style: normal;
     font-weight: 500;
@@ -48,7 +41,7 @@ a {
 
 }
 
-.line2 {
+.about {
     font-family: 'Halant';
     font-style: normal;
     font-weight: 500;
@@ -57,22 +50,20 @@ a {
     color: #2E3A53;
 }
 
-.line3 {
+.hire {
     border: 0.1em solid #155EEF;
     border-radius: 0.5em;
-
     color: #155EEF;
     padding: 0.5em;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
     font: size 1rem;
-    line-height: 150%;
-
+    line-height: 150%; 
     color: #155EEF;
 }
 
-.gparent {
+.bodytext {
     display: flex;
     width: 100%;
     border: 0.2em solid #155EEF;
@@ -84,7 +75,7 @@ a {
 
 }
 
-.gfirstchild {
+.bodychild {
     align-items: center;
     justify-content: space-between;
     padding-right: 7.5em;
@@ -92,7 +83,7 @@ a {
 
 }
 
-.gptext1 {
+.bodychild1 {
     font-family: 'Halant';
     font-style: normal;
     font-weight: 600;
@@ -104,7 +95,7 @@ a {
 
 }
 
-.gptext2 {
+.bodychild2 {
     font-family: 'Halant';
     font-style: normal;
     font-weight: 600;
@@ -115,7 +106,7 @@ a {
 
 }
 
-.gptext3 {
+.bodychild3 {
     font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -139,7 +130,7 @@ button {
 
 }
 
-.gsecondchild {
+.bodysecondchild {
     width: 35%;
 
 
@@ -147,13 +138,12 @@ button {
 
 }
 
-.ggparent {
+.parent {
     display: flex;
     width: 100%;
     border: 0.2em solid #155EEF;
     border-radius: 0.8em;
     margin-bottom: 1%;
-    display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: left;
@@ -161,7 +151,7 @@ button {
     padding: 4em 2em;
 }
 
-.ggfirstchild {
+.firstchild {
     width: 40%;
     border: 0.1em solid #155EEF;
     border-right: none;
@@ -172,13 +162,13 @@ button {
 
 }
 
-.ggsecondchild {
+.secondchild {
     padding-left: 11%;
     justify-content: space-between;
     text-align: justify;
 }
 
-.ggptext1 {
+.text1 {
     width: 100%;
     font-family: 'Halant';
     font-style: normal;
@@ -194,7 +184,7 @@ button {
 
 }
 
-.ggptext2 {
+.text2 {
     width: 100%;
     font-family: 'Manrope';
     font-style: normal;
@@ -207,10 +197,54 @@ button {
 
 
 }
-
-.gggparent {
+.father{
     display: flex;
-    /* width: 100%; */
+    width: 100%;
+    border: 0.2em solid #155EEF;
+    border-radius: 0.8em;
+    margin-bottom: 5%;
+    padding: 4em 2em;
+    position: relative;
+}
+
+.fson{
+    padding: 2% 7% 5% 2%;
+    gap: 150%;
+    width: 54%;
+    margin-bottom: 7%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 120%;
+    letter-spacing: 0.0313rem;
+    color: #2E3A53;
+    background: #F9FBFF;
+    z-index: 1;
+}
+
+.fson2{
+    width: 53%;
+    position: absolute;
+    left: 44%;
+    top: 25%;
+}
+
+.fson3{
+    color: #041330;
+    font-family: 'Halant';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    line-height: 120%;
+}
+
+p{
+    margin-bottom: 5%;
+}
+
+.gparent {
+    display: flex;
     align-items: center;
     border: 0.2em solid #155EEF;
     border-radius: 0.8em;
@@ -221,7 +255,7 @@ button {
 
 }
 
-.imgg {
+.parentimgg {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -230,7 +264,7 @@ button {
 
 }
 
-.sj {
+.lastborn {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
